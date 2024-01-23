@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <i class="fa-solid fa-hammer" id="hammer"></i>
+            <h1>s<span>h</span>ortn.<span>me</span></h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="text">
+                <h2>Get your link shortened!!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus atque deserunt, accusamus dolorum
+                    accusantium et! Sed provident architecto minus, corporis quasi voluptates ipsum! In maxime
+                    consequatur
+                    possimus mollitia neque voluptates. </p>
+                <img src="urlimage.png" alt="">
+                <span>Paste your link below</span>
+            </div>
+
+            <!-- <div class="error_msg" style="display: none;">
+            <span id="error">
+              Paste a Valid URL
+            </span>
+        </div> -->
+
+            <form class="shortener_container">
+                <div class="back_color"></div>
+                <div class="input">
+                    <input type="text" id="shortener" placeholder="Enter your URL">
+                    <button id="submit_btn">Short It!</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="links_container">
+            <div class="link">
+                <span class="long_link"><a>www.google.com</a></span>
+                <span class="short_link"><a>http:\\shortn.me\byef</a></span>
+                <button class="copy_btn">Copy</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="circle-1"></div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
